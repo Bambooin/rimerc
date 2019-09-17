@@ -1,4 +1,3 @@
-
 # Rimerc: rimer config
 
 ### 介绍
@@ -28,6 +27,9 @@ https://www.7-zip.org/
 - [Android平台](https://github.com/osfans/trime)
 Trime: /storage/emulated/0/rime
 
+- [Linux平台](https://github.com/rime/ibus-rime)
+IBus: ~/.config/ibus/rime (可以直接使用squirrel.7z)
+
 - [MacOS平台](https://github.com/rime/squirrel)
 Squirrel: ~/Library/Rime
 
@@ -43,4 +45,4 @@ Weasel: %AppData%\Rime
 4. 部署成功后，即可使用
 5. 若是觉得该配置不符合预期，可以删除该文件夹，恢复自己的配置
 
-##### 如果觉得简单易用，欢迎推荐给其他小白用户，让更多人使用上Rime输入法。
+##### 如果觉得简单易用，欢迎推荐给其他用户，让更多人使用上Rime输入法。
