@@ -24,20 +24,23 @@ https://www.7-zip.org/
 
 总体步骤，**备份自己的配置文件**，把解压后的文件复制相应的目录，重新部署即可。
 
-各平台默认配置文件路径
+### 默认配置文件路径
 
-- [Android平台](https://github.com/osfans/trime)
-Trime: /storage/emulated/0/rime
+- [Android](https://github.com/osfans/trime)
+  - Trime: /storage/emulated/0/rime
 
-- [Linux平台](https://github.com/rime/ibus-rime)
-IBus: ~/.config/ibus/rime (可以直接使用squirrel.7z)
+- [Linux](https://github.com/rime/ibus-rime) (使用squirrel.7z)
 
-- [MacOS平台](https://github.com/rime/squirrel)
-Squirrel: ~/Library/Rime
+  - IBus: ~/.config/ibus/rime
+  - Fcitx: ~/.config/fcitx/rime
 
-- [Windows平台](https://github.com/rime/weasel)
-Weasel: %AppData%\Rime
+- [MacOS](https://github.com/rime/squirrel)
 
+  - Squirrel: ~/Library/Rime
+
+- [Windows](https://github.com/rime/weasel)
+
+  - Weasel: %AppData%\Rime
 
 ### 举例
 以Android平台举例(Android内存至少需要2G，不然部署可能失败)
