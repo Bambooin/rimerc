@@ -60,5 +60,5 @@ Rimerc 是为了解决Rime新手及小白用户配置难题。
 - Squirrel: 主要参考 [scomper](https://github.com/scomper) 的[配置](https://github.com/scomper/Rime)文件 
 - Rimer: **感谢所有使用、分享和推广Rime输入法的Rimer**
 
-#### 如果配置对你有所帮助，欢迎推荐给其他用户🥳🥳🥳
+#### 如果配置对你有所帮助，欢迎推荐给更多用户使用 🥳🥳🥳
 
