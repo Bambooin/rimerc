@@ -4,11 +4,11 @@
 
 #### 简介
 
-Rimerc 是为了解决Rime新手及小白用户配置难题。
+Rimerc 是为了解决 Rime 新手及小白用户配置难题。
 
-很多用户由于配置不正确或词库匮乏而无法把Rime作为日常工作的常用输入法。
+很多用户由于配置不正确或词库匮乏而无法把 Rime 作为日常工作的常用输入法。
 
-整理和分享自己使用的配置，为其他小白用户解决配置难题，推广Rime的使用。
+整理和分享自己使用的配置，为其他小白用户解决配置难题，推广 Rime 的使用。
 
 #### 特点
 
@@ -29,7 +29,7 @@ Rimerc 是为了解决Rime新手及小白用户配置难题。
 - [Android](https://github.com/osfans/trime)
   - Trime: /storage/emulated/0/rime
 
-- [Linux](https://github.com/rime/ibus-rime) (使用squirrel.7z)
+- [Linux](https://github.com/rime/ibus-rime) (使用 squirrel.7z)
 
   - IBus: ~/.config/ibus/rime
   - Fcitx: ~/.config/fcitx/rime
@@ -46,8 +46,8 @@ Rimerc 是为了解决Rime新手及小白用户配置难题。
 
 以 Android 平台为例 (Android 内存至少需要2G，不然可能部署失败)
 
-1. 把自己配置文件目录rime，重命名为rimebackup
-2. 新建一个空目录rime，复制tirme.7z里面的文件到该目录
+1. 把自己配置文件目录 rime，重命名为 rimebackup
+2. 新建一个空目录 rime，复制 tirme.7z 里面的文件到该目录
 3. 重新部署(**注意由于词库文件较大，需要部署一段时间，需耐心等待**)
 4. 部署成功后，即可使用
 5. 若是配置不符合预期，可以删除该文件夹，恢复自己的配置
@@ -58,7 +58,7 @@ Rimerc 是为了解决Rime新手及小白用户配置难题。
 - Rime: 感谢 [lotem](https://github.com/lotem) 提供的优秀输入法平台
 - Trime 感谢 [osfans](https://github.com/osfans) 移植到 Android 平台所做的大量工作
 - Squirrel: 主要参考 [scomper](https://github.com/scomper) 的[配置](https://github.com/scomper/Rime)文件 
-- Rimer: **感谢所有使用、分享和推广Rime输入法的Rimer**
+- Rimer: **感谢所有使用、分享和推广 Rime 输入法的 Rimer**
 
 #### 如果配置有所帮助，欢迎推荐更多用户使用 🥳🥳🥳
 
