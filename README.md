@@ -22,9 +22,9 @@ Rimerc 是为了解决 Rime 新手及小白用户配置难题。
 
 解压请使用 [7-Zip](https://www.7-zip.org/) 工具，**解压密码统一为: rimerc**
 
-总体步骤，**备份自己的配置文件**，把解压后的文件复制到相应的目录，重新部署即可。
+总体步骤，**备份原配置文件**，拷贝新配置至相应目录，重新部署即可。
 
-#### 默认配置文件路径
+#### 默认配置路径
 
 - [Android](https://github.com/osfans/trime)
   - Trime: /storage/emulated/0/rime
