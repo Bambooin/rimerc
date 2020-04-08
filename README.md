@@ -56,7 +56,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 #### 致谢
 
-**所有词库和配置文件均从互联网上获取并精心整理、磨合**
+**所有词库和配置文件均从互联网上获取并精心整理、磨合和改善**
 - Rime: 感谢 [lotem](https://github.com/lotem) 提供的优秀输入法平台
 - Trime 感谢 [osfans](https://github.com/osfans) 移植到 Android 平台所做的大量工作
 - Squirrel: 主要参考 [scomper](https://github.com/scomper) 的[配置](https://github.com/scomper/Rime)文件 
