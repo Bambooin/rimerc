@@ -32,7 +32,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 **📢 解压密码统一为: rimerc**
 
-请使用 [7-Zip](https://www.7-zip.org/) 抑或如下命令行解压
+请使用 [7-Zip](https://www.7-zip.org/) 抑或使用命令行进行解压
  ``` bash
  7z x trime.7z
  ```
