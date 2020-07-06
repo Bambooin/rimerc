@@ -52,7 +52,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
   - Fcitx: ~/.config/fcitx/rime (推荐使用)
   - IBus: ~/.config/ibus/rime
 
-- [MacOS](https://github.com/rime/squirrel)
+- [macOS](https://github.com/rime/squirrel)
 
   - Squirrel: ~/Library/Rime
 
