@@ -49,8 +49,8 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 - [Linux](https://github.com/rime/ibus-rime) (使用 squirrel.7z)
 
+  - Fcitx: ~/.config/fcitx/rime (推荐使用)
   - IBus: ~/.config/ibus/rime
-  - Fcitx: ~/.config/fcitx/rime
 
 - [MacOS](https://github.com/rime/squirrel)
 
