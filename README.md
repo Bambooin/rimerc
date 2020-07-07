@@ -44,7 +44,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 ##### 默认配置路径
 
-- [Android]
+- Android
   - [Trime](https://github.com/osfans/trime): /storage/emulated/0/rime
 
 - Linux (使用 squirrel.7z)
