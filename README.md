@@ -34,6 +34,8 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 请使用 [7-Zip](https://www.7-zip.org/) 抑或使用命令行进行解压
  ``` bash
+ git clone https://github.com/Bambooin/rimerc.git
+ cd rimerc
  7z x trime.7z
  ```
 
