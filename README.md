@@ -44,21 +44,18 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 ##### 默认配置路径
 
-- [Android](https://github.com/osfans/trime)
-  - Trime: /storage/emulated/0/rime
+- [Android]
+  - [Trime](https://github.com/osfans/trime): /storage/emulated/0/rime
 
 - Linux (使用 squirrel.7z)
-
   - [Fcitx](https://github.com/fcitx/fcitx-rime): ~/.config/fcitx/rime (推荐使用)
   - [IBus](https://github.com/rime/ibus-rime): ~/.config/ibus/rime
 
-- [macOS](https://github.com/rime/squirrel)
+- macOS
+  - [Squirrel](https://github.com/rime/squirrel): ~/Library/Rime
 
-  - Squirrel: ~/Library/Rime
-
-- [Windows](https://github.com/rime/weasel)
-
-  - Weasel: %AppData%\Rime
+- Windows
+  - [Weasel](https://github.com/rime/weasel): %AppData%\Rime
 
 ##### 具体步骤
 
