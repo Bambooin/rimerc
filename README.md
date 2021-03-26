@@ -1,4 +1,4 @@
-## rimerc: rimer's dictionary & config 
+## rimerc: rimer's dictionary & config
 
 #### 让更多的人快速高效地享受 Rime 输入法带来的乐趣 🎉🎉🎉
 
