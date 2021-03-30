@@ -44,9 +44,13 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 请使用 [7-Zip](https://www.7-zip.org/) 抑或使用命令行进行解压
  ``` bash
+ # usage of fcitx5
  git clone https://github.com/Bambooin/rimerc.git
  cd rimerc
- 7z x trime.7z
+ 7z e fcitx5.7z -ofcitx5
+ cd fcitx5
+ mkdir -p ~/.local/share/fcitx5/rime
+ cp *.yaml ~/.local/share/fcitx5/rime
  ```
 
 总体步骤
