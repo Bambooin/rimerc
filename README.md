@@ -64,6 +64,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 - UN*X
   - [Fcitx](https://github.com/fcitx/fcitx-rime): ~/.config/fcitx/rime (推荐)
+  - [Fcitx5](https://github.com/fcitx/fcitx5-rime): ~/.local/share/fcitx5/rime
   - [IBus](https://github.com/rime/ibus-rime): ~/.config/ibus/rime
 
 - Windows
