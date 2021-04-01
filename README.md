@@ -47,7 +47,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
  # usage of rimerc
  git clone https://github.com/Bambooin/rimerc.git
  cd rimerc
- # pick your input method fcitx, fcitx5 or ibus
+ # pick your rime: fcitx, fcitx5, ibus or squirrel
  ./rimerc.sh fcitx5
  ```
 
