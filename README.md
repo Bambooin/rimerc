@@ -1,4 +1,4 @@
-## rimerc: rimer's dictionary & config
+# rimerc: rimer's dictionary & config
 
 #### 让更多的人快速高效地享受 Rime 输入法带来的乐趣 🎉🎉🎉
 
@@ -38,18 +38,19 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 #### 如何使用
 
+ ``` bash
+ # usage of rimerc
+ git clone https://github.com/Bambooin/rimerc.git
+ cd rimerc
+ # pick one of your rime: fcitx, fcitx5, ibus or squirrel
+ ./rimerc.sh fcitx5
+ ```
+
 由于词库文件巨大且均为文本数据，极易压缩，压缩以减少下载时间
 
 **📢 解压密码统一为: rimerc**
 
 请使用 [7-Zip](https://www.7-zip.org/) 抑或使用命令行进行解压
- ``` bash
- # usage of rimerc
- git clone https://github.com/Bambooin/rimerc.git
- cd rimerc
- # pick your rime: fcitx, fcitx5, ibus or squirrel
- ./rimerc.sh fcitx5
- ```
 
 总体步骤
 1. **备份自己原有配置文件**
@@ -93,4 +94,3 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 - Rimer: **感谢所有使用、分享和推广 Rime 输入法的 Rimer**
 
 #### 如果配置有所帮助，欢迎推荐给更多 Rime 爱好者和用户使用 🥳🥳🥳
-
