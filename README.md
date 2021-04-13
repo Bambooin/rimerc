@@ -1,6 +1,6 @@
 ## rimerc: rimer's dictionary & config
 
-#### 让更多的人快速高效地享受 Rime 输入法带来的乐趣 🎉🎉🎉
+**让更多的人快速高效地享受 Rime 输入法带来的乐趣 🎉🎉🎉**
 
 #### 由来
 
@@ -93,4 +93,4 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 - Squirrel: 主要参考 [scomper](https://github.com/scomper) 的[配置](https://github.com/scomper/Rime)文件 
 - Rimer: **感谢所有使用、分享和推广 Rime 输入法的 Rimer**
 
-#### 如果配置有所帮助，欢迎推荐给更多 Rime 爱好者和用户使用 🥳🥳🥳
+**如果配置有所帮助，欢迎推荐给更多 Rime 爱好者和用户使用 🥳🥳🥳**
