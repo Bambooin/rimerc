@@ -57,7 +57,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 2. 解压新配置至相应目录
 3. 重新部署即可流畅使用
 
-##### 默认配置路径
+##### 配置路径
 
 - Android
   - [Trime](https://github.com/osfans/trime): /storage/emulated/0/rime
@@ -73,7 +73,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 - Windows
   - [Weasel](https://github.com/rime/weasel): %AppData%\Rime
 
-##### 具体步骤
+##### 详细步骤
 
 以 Android 平台为例 (Android 内存需大于 2G，部署前清除系统缓存)
 
