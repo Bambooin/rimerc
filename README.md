@@ -65,7 +65,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 ##### 配置路径
 
 - Android
-  - [Trime](https://github.com/osfans/trime): /storage/emulated/0/rime
+  - [Trime](https://github.com/osfans/trime): /sdcard/rime
 
 - macOS
   - [Squirrel](https://github.com/rime/squirrel): ~/Library/Rime
