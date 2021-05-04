@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -z "$1" ]; then
+if [ -z $1 ]; then
   echo "Provide at least one input method!"
   echo "Such as: $0 fcitx5"
   exit
