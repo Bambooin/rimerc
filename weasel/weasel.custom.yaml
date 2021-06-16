@@ -1,0 +1,5 @@
+# Weasel 自定义
+patch:
+  "style/color_scheme": lost_temple
+  "style/horizontal": true
+...
