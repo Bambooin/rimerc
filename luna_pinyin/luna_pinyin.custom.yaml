@@ -1,0 +1,28 @@
+# 朙月拼音 输入方案自定义
+patch:
+  # 添加中英混输
+  __include: easy_en:/patch
+  easy_en/enable_sentence: false
+  # 添加模糊音
+  speller/algebra:
+    __patch:
+      - pinyin:/zh_z_bufen
+      - pinyin:/n_l_bufen
+      - pinyin:/r_l_bufen
+      - pinyin:/r_y_bufen
+      - pinyin:/hu_f_buhun
+      - pinyin:/eng_ong_bufen
+      - pinyin:/en_eng_bufen
+      - pinyin:/ziantuan
+      - pinyin:/zhongguan
+      - pinyin:/abbreviation
+      - pinyin:/spelling_correction
+      - pinyin:/key_correction
+  translator/preedit_format/+:
+    __patch:
+      - pinyin:/ziantuan_preedit_format
+      - pinyin:/zhongguan_preedit_format
+
+  # 添加朙月拼音扩充词库
+  translator/dictionary: luna_pinyin.extended     
+...
