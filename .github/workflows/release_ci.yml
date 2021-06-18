@@ -17,8 +17,8 @@ jobs:
         run: make archive
 
       - name: Build changelog
+        id: relase_log
         uses: mikepenz/release-changelog-builder-action@v1
-        id: changelog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,5 +27,5 @@ jobs:
         with:
           artifacts: "release/*.zip"
           body: |
-            ${{ steps.changlog.outputs.changelog }}
+            ${{ steps.relase_log.outputs.changelog }}
           token: ${{ secrets.GITHUB_TOKEN }}
