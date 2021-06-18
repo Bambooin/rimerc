@@ -7,25 +7,30 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout last commit
+      - name: Checkout repo
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
           submodules: 'recursive'
 
-      - name: Archive config
+      - name: Archive rimerc
         run: make archive
 
       - name: Build changelog
-        id: relase_log
-        uses: mikepenz/release-changelog-builder-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: release_log
+        run: |
+          log=$(./script/changelog.sh)
+          # multiline
+          log="${log//'%'/'%25'}"
+          log="${log//$'\n'/'%0A'}"
+          log="${log//$'\r'/'%0D'}"
+
+          echo "::set-output name=changelog::$log"
 
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "release/*.zip"
           body: |
-            ${{ steps.relase_log.outputs.changelog }}
+            ${{ steps.release_log.outputs.changelog }}
           token: ${{ secrets.GITHUB_TOKEN }}
