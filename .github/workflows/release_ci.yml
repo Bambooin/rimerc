@@ -1,5 +1,8 @@
 name: Release ci
-on: [tags]
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   release:
     runs-on: ubuntu-latest
