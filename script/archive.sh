@@ -3,7 +3,7 @@
 releasePath=release
 
 flavors=(fcitx fcitx5 ibus squirrel trime weasel)
-version=$(git describe --abbrev=0)
+version=$(git describe --tags --abbrev=0)
 
 pushd ${releasePath}
 
