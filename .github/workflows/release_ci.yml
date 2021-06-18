@@ -1,0 +1,29 @@
+name: Release ci
+on: [tags]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout last commit
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          submodules: 'recursive'
+
+      - name: Archive config
+        run: make archive
+
+      - name: Build changelog
+        uses: mikepenz/release-changelog-builder-action@v1
+        id: changelog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create release
+        uses: ncipollo/release-action@v1
+        with:
+          artifact: "release/*.zip"
+          draft: true
+          body: |
+            ${{ steps.changlog.outputs.changelog }}
+          token: ${{ secrets.GITHUB_TOKEN }}
