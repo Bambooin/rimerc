@@ -2,7 +2,12 @@
 
 releasePath=release
 
-flavors=(fcitx fcitx5 ibus squirrel trime weasel)
+if [ -z $1 ]; then
+  flavors=(fcitx fcitx5 ibus squirrel trime weasel)
+else
+  flavors=($1)
+fi
+
 schemas=(common easy_en luna_pinyin)
 
 mkdir -p ${releasePath}
