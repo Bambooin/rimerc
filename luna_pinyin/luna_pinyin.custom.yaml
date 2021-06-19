@@ -23,17 +23,6 @@ patch:
       - pinyin:/ziantuan_preedit_format
       - pinyin:/zhongguan_preedit_format
 
-  # 默认使用简体
-  switches:
-    - name: ascii_mode
-      reset: 0
-      states: [ 中文, 西文 ]
-    - name: full_shape
-      states: [ 半角, 全角 ]
-    - name: simplification
-      reset: 1
-      states: [ 漢字, 汉字 ]
-
   # 添加朙月拼音扩充词库
   translator/dictionary: luna_pinyin.extended     
 ...
