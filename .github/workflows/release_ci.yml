@@ -13,8 +13,8 @@ jobs:
           fetch-depth: 0
           submodules: 'recursive'
 
-      - name: Archive rimerc
-        run: make archive
+      - name: Build rimerc
+        run: make release
 
       - name: Build changelog
         id: release_log
@@ -30,7 +30,7 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "release/*.zip"
+          artifacts: "release/*.zip,release/*.sha256.txt"
           body: |
             ${{ steps.release_log.outputs.changelog }}
           token: ${{ secrets.GITHUB_TOKEN }}
