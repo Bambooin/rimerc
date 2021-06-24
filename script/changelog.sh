@@ -3,4 +3,6 @@
 current=$(git describe --tags --abbrev=0)
 previous=$(git describe --always --abbrev=0 --tags ${current}^)
 
+echo "**Change log since ${previous}:**"
+
 git log --oneline --decorate ${previous}...${curent} --pretty="format:- %h %s" | grep -v Merge
