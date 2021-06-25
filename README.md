@@ -88,6 +88,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 **所有词库和配置文件均从互联网上获取并精心整理、磨合和改善**
 - Rime: 感谢 [lotem](https://github.com/lotem) 提供的优秀输入法平台
 - Trime: 感谢 [osfans](https://github.com/osfans) 移植到 Android 平台所做的大量工作
+- easy-en: 主要参考 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en) 的配置
 - Squirrel: 主要参考 [scomper](https://github.com/scomper) 的[配置](https://github.com/scomper/Rime)文件 
 - Rimer: **感谢所有使用、分享和推广 Rime 输入法的 Rimer**
 
