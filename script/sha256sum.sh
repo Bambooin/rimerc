@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
 releasePath=release
+shasum=rimerc.sha256.txt
 
 pushd ${releasePath}
 
-for zip in *.zip
-do
-  sha256sum ${zip} > ${zip}.sha256.txt
-done
+# generate shasum
+sha256sum *.zip > ${shasum}
+
+# check shasum
+sha256sum -c ${shasum}
 
 popd
