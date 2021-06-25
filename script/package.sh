@@ -12,6 +12,9 @@ schemas=(common easy_en luna_pinyin)
 
 mkdir -p ${releasePath}
 
+licence='Copyleft.txt LICENSE README.md'
+cp -r ${licence} ${releasePath}
+
 for flavor in ${flavors[*]}
 do
   cp -arH ${flavor} ${releasePath}
