@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 releasePath=release
-shasum=rimerc.sha256.txt
+shasum=rimerc.sha256
 
 pushd ${releasePath}
 
