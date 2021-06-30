@@ -30,7 +30,7 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "release/*.zip,release/*.sha256.txt"
+          artifacts: "release/*.zip,release/*.sha256"
           body: |
             ${{ steps.release_log.outputs.changelog }}
           token: ${{ secrets.GITHUB_TOKEN }}
