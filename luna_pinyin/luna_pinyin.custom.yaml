@@ -1,8 +1,5 @@
 # 朙月拼音 输入方案自定义
 patch:
-  # 添加中英混输
-  __include: easy_en:/patch
-  easy_en/enable_sentence: false
   # 添加模糊音
   speller/algebra:
     __patch:
