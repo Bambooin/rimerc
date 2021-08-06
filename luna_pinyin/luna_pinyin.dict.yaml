@@ -28,7 +28,7 @@
 
 ---
 name: luna_pinyin
-version: "2020.02.08"
+version: "2020.08.03"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -56516,6 +56516,8 @@ use_preset_vocabulary: true
 披麻帶索	pi ma dai suo
 披麻救火	pi ma jiu huo
 披麻皴	pi ma cun
+抬行市	tai hang shi
+抬頦	tai hai
 抱廈廳	bao xia ting
 抱朴	bao pu
 抱朴子	bao pu zi
@@ -57377,8 +57379,6 @@ use_preset_vocabulary: true
 擘開	bo kai
 據牀指麾	ju chuang zhi hui
 擠陷	ji xian
-擡行市	tai hang shi
-擡頦	tai hai
 擦弦樂器	ca xian yue qi
 擦拳抹掌	ca quan mo zhang
 擦撞	ca zhuang
