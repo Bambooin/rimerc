@@ -58,7 +58,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 
 推荐使用脚本方式，具有自动解压、备份和重新部署功能，更加高效快捷
 
-需要Linux、Mac OS或其它具有(bash) shell的终端执行下列命令
+需要Linux、macOS或其它具有(bash) shell的终端执行下列命令
 
 1. 克隆本仓库，进入文件夹
 
@@ -73,7 +73,7 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
    ./rimerc.sh <variant>
    ```
 
-   该步骤完成后，对于Linux和Mac OS，脚本会自动备份已有配置文件，并部署新的配置文件。对于Android和Windows系统，需要进行步骤3
+   该步骤完成后，对于Linux和macOS，脚本会自动备份已有配置文件，并部署新的配置文件。对于Android和Windows系统，需要进行步骤3
 
 3. 对于Android和Windows，需要手动将脚本生成的`release/trime`或`release/weasel`文件夹内的所有内容复制到相应平台的配置路径所在文件夹内（见上）
 
