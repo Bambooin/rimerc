@@ -67,24 +67,24 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
    cd rimerc
    ```
 
-2. 准备所有相关的配置文件，将下列命令中的`<variant>`改为你将要使用的平台：fcitx、fcitx5、ibus、squirrel、trime或weasel
+2. 准备所有相关的配置文件，将下列命令中的 `<variant>` 改为你将要使用的平台：fcitx, fcitx5, ibus, squirrel, trime 或 weasel
 
    ```
    ./rimerc.sh <variant>
    ```
 
-   该步骤完成后，对于Linux和macOS，脚本会自动备份已有配置文件，并部署新的配置文件。对于Android和Windows系统，需要进行步骤3
+   该步骤完成后，对于 Linux 和 macOS，脚本会自动备份已有配置文件，并部署新的配置文件。对于 Android 和 Windows 系统，需要进行步骤3
 
-3. 对于Android和Windows，需要手动将脚本生成的`release/trime`或`release/weasel`文件夹内的所有内容复制到相应平台的配置路径所在文件夹内（见上）
+3. 对于 Android 和 Windows，需要手动将脚本生成的 `release/trime` 或 `release/weasel` 文件夹内的所有内容复制到相应平台的配置路径所在文件夹内（见上）
 
 
 ### 手动方式
 
 准备：
 
-1. **备份自己原有配置文件**，如将原配置文件夹`rime`重命名为`rime.old`。
+1. **备份自己原有配置文件**，如将原配置文件夹 `rime` 重命名为 `rime.old`。
 2. 下载最新版本到相应目录，可使用git克隆，或者下载zip压缩包（Github页面提供该功能）后在本地解压
-3. 进入`rimerc`文件夹（下载zip压缩包则会解压为`rimerc-master`文件夹）
+3. 进入 `rimerc` 文件夹（下载zip压缩包则会解压为 `rimerc-master` 文件夹）
 
 打包：
 
@@ -95,13 +95,13 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
    - `luna_pinyin/`：中文输入
 
    将上述每一个文件夹内的文件复制到你所使用平台的配置路径文件夹（见上）内
-5. 将你所使用平台，即fcitx、fcitx5、ibus、squirrel、trime或weasel，相应文件夹中的文件复制到你所使用平台的配置路径文件夹（见上）内
+5. 将你所使用平台，即 fcitx, fcitx5, ibus, squirrel, trime 或 weasel，相应文件夹中的文件复制到你所使用平台的配置路径文件夹（见上）内
 
 部署：
 
 6. 重新部署(**由于词库文件很大，部署运行时间较长，请耐心等待**)
 
-   部署完成后，配置路径下`build`目录里面生成各种`*.bin`文件即可认为部署成功
+   部署完成后，配置路径下 `build` 目录里面生成各种 `*.bin` 文件即可认为部署成功
 7. 若本配置文件使用过程出现任何问题，尝试：
 
    - 清除应用的系统缓存（如安卓系统）
