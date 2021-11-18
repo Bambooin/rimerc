@@ -1,44 +1,44 @@
 # rimerc: rimer's dictionary & config
 
-**让更多的人快速高效地享受 Rime 输入法带来的乐趣 🎉🎉🎉**
+**Enjoy the fantacy journey to the Rime input method easily and efficiently 🎉🎉🎉**
 
-## 由来
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub release](https://img.shields.io/github/release/Bambooin/rimerc.svg)](https://github.com/Bambooin/rimerc/releases)
 
-最开始接触 Rime 平台输入法时，看中其**隐私安全性**，使用时却遇到很多问题
+[English](README.md) | [简体中文](README_sc.md)
 
-网上搜索解决方法和词库很费时且效率低下，非常渴望有开箱即用的配置文件
+## History
 
-自己不断摸索的过程中萌生分享配置，帮助大家快速入手 Rime 输入法的想法
+When first coming into the Rime input methods, seeking for their **privacy and security**, but encountered lots of obstacles
 
-## 隐私
+Lack of UI settings and steep learn curve are very hard for nobies, very eager to have an out of box solution
 
-输入法作为日常使用的必备软件，涉及的数据极其**敏感和隐私**，目前商用输入法
+Come up with the idea of sharing configuration to help Rime community easily and efficiently
 
-大部分滥用用户数据，肆意侵犯用户隐私，所以对于注重个人隐私的用户，亟需
+## Privacy
 
-一款安全开源的输入法。Rime 输入法满足这些隐私需求，但却有词库匮乏，配置
+Input method as a necessary daily software used, the data involved is extremely **sensitive and privacy**, but most of current commercial input methods abuse of user's data and privacy
 
-困难等问题，所以把自己整理的配置分享给大家，让大家使用起来更加方便和便捷
+For people who pay attention to personal privacy, it is urgent to have a safe input method.
+Rime meets these requirements, but lack of dictionary and configuration is very difficult for begginer, so share rimerc with community
 
-## 简介
+## Introduction
 
-Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨合的配置文件
+Rimerc is designed to solve the headache of Rime begginer, by providing organized and constantly honed configuration
 
-很多用户由于配置不正确或词库匮乏而无法把 Rime 作为日常工作的常用输入法
+Lots of people cannot use Rime as an usual input method for daily work due to incorrect configuration or lack of dictionary
 
-整理和分享自己磨合的配置，为其他小白用户解决配置难题，推广 Rime 的使用
+## Feature
 
-## 特点
+- Out of box configuration and dictionary
+- All variant of Rime are supported
+- Daily usage for everyone
+- Organized and polished constantly
+- Suitable for nobies of Rime
 
-- 开箱即用且词库丰富
-- 全平台配置文件支持
-- 完全可以作为日常使用
-- 均经过自己整理和磨合
-- 适合不熟悉配置的新手
+## Usage
 
-## 用法
-
-### 配置路径
+### Path
 
 - Android
   - [Trime](https://github.com/osfans/trime): /sdcard/rime
@@ -54,60 +54,59 @@ Rimerc 是为了解决 Rime 新手配置难题，提供自己整理和不断磨�
 - Windows
   - [Weasel](https://github.com/rime/weasel): %AppData%\Rime
 
-### 脚本方式
+### Script
 
-推荐使用脚本方式，具有自动解压、备份和重新部署功能，更加高效快捷
+Script mode is recommended, with automatic decompression, backup, and redeployment, more efficient
 
-需要 Linux、macOS 或其它具有 Bash 的终端执行下列命令
+Linux, macOS, or other terminals with Bash are required to perform the following commands
 
-1. 克隆本仓库，进入文件夹
+1. Clone the repository and go to the folder
 
    ``` bash
    git clone https://github.com/Bambooin/rimerc.git
    cd rimerc
    ```
 
-2. 准备所有相关的配置文件，将下列命令中的 `<variant>` 改为你将要使用的平台：fcitx, fcitx5, ibus, squirrel, trime 或 weasel
-
+2. Prepare all relevant configuration and choose your the `$variant`: fcitx, fcitx5, ibus or squirrel
    ```
-   ./rimerc.sh <variant>
+   ./rimerc.sh $variant
    ```
 
-   该步骤完成后，对于 Linux 和 macOS，脚本会自动备份已有配置文件，并部署新的配置文件。对于 Android 和 Windows 系统，需要进行步骤3
+    After the step is completed, for Linux, the script automatically backs up the existing configuration and redeploy.
+    For macOS and Windows platform, go to step 3
 
-3. 对于 Android 和 Windows，需要手动将脚本生成的 `release/trime` 或 `release/weasel` 文件夹内的所有内容复制到相应平台的配置路径所在文件夹内（见上）
+3. Redeploy manually is needed
 
+### Manual
 
-### 手动方式
+Prepare:
 
-准备：
+1. **Back up your configuration**, you can rename `rime` folder to `rime.old`
+2. Download the [latest](https://github.com/Bambooin/rimerc/releases) version and unzip locally
 
-1. **备份自己原有配置文件**，如将原配置文件夹 `rime` 重命名为 `rime.old`
-2. 下载相应[最新版本](https://github.com/Bambooin/rimerc/releases)到相应目录，在本地解压
+Deployment:
 
-部署：
+3. Redeployment(**Please be patient as dictionary is large**)
 
-3. 重新部署(**由于词库文件很大，部署运行时间较长，请耐心等待**)
+   Once the deployment is complete, the `build` directory under the configuration path and a variety of `.bin` files to be considered successful
 
-   部署完成后，配置路径下 `build` 目录里面生成各种 `*.bin` 文件即可认为部署成功
-4. 若本配置文件使用过程出现任何问题，尝试：
+4. If there are any problems, try:
+   - Clear the system cache (e.g. Android)
+   - Restore default settings (e.g. Android: Go to app, **Configurations --> Reset --> Check all options**)
 
-   - 清除应用的系统缓存（如安卓系统）
-   - 恢复默认设置（如安卓系统：进入应用，**输入配置-->恢复默认设置-->勾选所有选项**）
+   Then go to (step 3)
 
-   后重新部署（步骤3）
+Recover:
 
-恢复：
+5. If the configuration does not meets your needs, you can delete the rime folder, and restore your original configuration
 
-5. 若是配置不符合预期，可以删除 rime 目录，恢复自己的配置即可
+## Acknowledgments
 
-## 致谢
+**All dictionary and configuration are gathered from the Rime community and constantly organized**
+- Rime: Thanks to the excellent work by [lotem](https://github.com/lotem)
+- Trime: Thanks to [osfans](https://github.com/osfans) for hard work of Trime
+- easy-en: [rime-easy-en](https://github.com/BlindingDark/rime-easy-en)
+- Squirrel: [scomper](https://github.com/scomper/Rime)
+- Rimer: **Thanks to all of you use, share and promote Rime**
 
-**所有词库和配置文件均从互联网上获取并精心整理、磨合和改善**
-- Rime: 感谢 [lotem](https://github.com/lotem) 提供的优秀输入法平台
-- Trime: 感谢 [osfans](https://github.com/osfans) 移植到 Android 平台所做的大量工作
-- easy-en: 主要参考 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en) 的配置
-- Squirrel: 主要参考 [scomper](https://github.com/scomper) 的[配置](https://github.com/scomper/Rime)文件 
-- Rimer: **感谢所有使用、分享和推广 Rime 输入法的 Rimer**
-
-**如果配置有所帮助，欢迎推荐给更多 Rime 爱好者和用户使用 🥳🥳🥳**
+**Thinking rimerc is helpful, thanks for spreading to Rime community🥳🥳🥳**
