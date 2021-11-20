@@ -11,16 +11,16 @@
 
 When first coming into the Rime input methods, seeking for their **privacy and security**, but encountered lots of obstacles
 
-Lack of UI settings and steep learn curve are very hard for nobies, very eager to have an out of box solution
+Lack of UI settings and steep learning curve are very unfriendly for nobies, very eager to have an out of box solution
 
-Come up with the idea of sharing configuration to help Rime community easily and efficiently
+Come up with the idea of sharing configuration to help Rime community use it easily and efficiently
 
 ## Privacy
 
-Input method as a necessary daily software used, the data involved is extremely **sensitive and privacy**, but most of current commercial input methods abuse of user's data and privacy
+Input method as a necessary daily used software, the data involved is extremely **sensitive and privacy**, but most of current commercial input methods abuse of user's data and privacy
 
 For people who pay attention to personal privacy, it is urgent to have a safe input method.
-Rime meets these requirements, but lack of dictionary and configuration is very difficult for begginer, so share rimerc with community
+Rime meets these requirements, but lack of dictionary and configuration is very difficult for begginer, so share rimerc with the community
 
 ## Introduction
 
@@ -30,7 +30,7 @@ Lots of people cannot use Rime as an usual input method for daily work due to in
 
 ## Feature
 
-- Out of box configuration and dictionary
+- Out of box solution for Rime
 - All variant of Rime are supported
 - Daily usage for everyone
 - Organized and polished constantly
