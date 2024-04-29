@@ -13,13 +13,13 @@ schemas=(common easy_en luna_pinyin)
 mkdir -p ${releasePath}
 
 licence='Copyleft.txt LICENSE README.md'
-cp -r ${licence} ${releasePath}
+cp -rf ${licence} ${releasePath}
 
 for flavor in ${flavors[*]}
 do
-  cp -arH ${flavor} ${releasePath}
+  cp -rfH ${flavor} ${releasePath}
   for schema in ${schemas[*]}
   do
-    cp -ar ${schema}/* ${releasePath}/${flavor}
+    cp -rf ${schema}/* ${releasePath}/${flavor}
   done
 done
