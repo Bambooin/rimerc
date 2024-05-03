@@ -83,10 +83,10 @@ fi
 
 # copy config to config path
 mkdir -p ${RIME_CONFIG_PATH}
-cp -ra ${RELEASE_PATH}/${INPUT_METHOD}/* ${RIME_CONFIG_PATH}
+cp -a ${RELEASE_PATH}/${INPUT_METHOD}/* ${RIME_CONFIG_PATH}
 
 # copy userdb to config path
-cp -ra ${BACKUP_PATH}/*.userdb ${RIME_CONFIG_PATH}
+cp -a ${BACKUP_PATH}/*.userdb ${RIME_CONFIG_PATH}
 
 # restart input method
 echo -e "\nWaiting for ${INPUT_METHOD} restart and deploying..."
