@@ -12,7 +12,7 @@ schemas=(common easy_en luna_pinyin)
 
 mkdir -p ${releasePath}
 
-licence='Copyleft.txt LICENSE README.md'
+licence='Copyleft.txt LICENSE README.md CHANGELOG.md'
 cp -a ${licence} ${releasePath}
 
 for flavor in ${flavors[*]}; do
