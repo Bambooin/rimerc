@@ -21,3 +21,6 @@ clean:
 
 install: pacakge
 	# install
+
+shfmt:
+	find . -type f -name "*.sh" -exec shfmt -w -i 2 {} \;
