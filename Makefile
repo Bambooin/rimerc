@@ -24,3 +24,7 @@ install: pacakge
 
 shfmt:
 	find . -type f -name "*.sh" -exec shfmt -w -i 2 {} \;
+
+# generate changlog
+cliff:
+	git-cliff -o CHANGELOG.md
