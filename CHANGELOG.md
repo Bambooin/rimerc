@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.1.7] - 2024-05-03
 
 ### 🚀 Features
 
@@ -29,6 +29,8 @@ All notable changes to this project will be documented in this file.
 - Format shell with shfmt
 - Add shfmt Makefile target
 - Add cliff makefile target
+- Add changelog to release
+- Update changelog of 0.1.7
 
 ## [0.1.6] - 2021-09-07
 
