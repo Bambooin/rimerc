@@ -29,12 +29,12 @@ squirrel)
 trime | weasel)
   case $1 in
   weasel)
-  RIME_CONFIG_PATH=%AppData%\Rime
-  ;;
-  
+    RIME_CONFIG_PATH=%AppData%\Rime
+    ;;
+
   trime)
-  RIME_CONFIG_PATH=/sdcard/rime
-  ;;
+    RIME_CONFIG_PATH=/sdcard/rime
+    ;;
   esac
 
   # package flavor
