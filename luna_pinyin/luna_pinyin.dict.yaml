@@ -24793,6 +24793,7 @@ use_preset_vocabulary: true
 藦	mo
 藧	huan
 藨	biao
+藨	pao
 藩	fan
 藪	sou
 藫	tan
@@ -29763,7 +29764,9 @@ use_preset_vocabulary: true
 閧	hong
 閨	gui
 閩	min
-閪	se
+閪	hai
+閪	hei
+閪	xi
 閫	kun
 閬	gen
 閬	lang
@@ -30422,6 +30425,7 @@ use_preset_vocabulary: true
 鞲	gou
 鞲	jiang
 鞳	ta
+鞴	bei
 鞴	fu
 鞵	hai
 鞵	xie
@@ -51995,6 +51999,7 @@ use_preset_vocabulary: true
 叫囂	jiao xiao
 叫地地不靈	jiao di di bu ling
 叫聒	jiao gua
+叫聒	jiao guo
 召南	shao nan
 召棠	shao tang
 召父杜母	shao fu du mu
@@ -52443,6 +52448,7 @@ use_preset_vocabulary: true
 哏毒	hen du
 員弁	yuan bian
 哤聒	mang gua
+哤聒	mang guo
 哥倆好	ge lia hao
 哦呀	o ya
 哦呵	o he
@@ -52732,6 +52738,7 @@ use_preset_vocabulary: true
 嘁哩喀喳	qi li ka cha
 嘁嘁喳喳	qi qi cha cha
 嘈聒	cao gua
+嘈聒	cao guo
 嘉南大圳	jia nan da zun
 嘉肴	jia yao
 嘉言善行	jia yan shan xing
@@ -52797,6 +52804,7 @@ use_preset_vocabulary: true
 器皿	qi min
 器重	qi zhong
 噪聒	zao gua
+噪聒	zao guo
 噪音音樂	zao yin yin yue
 噫吁戲	yi xu xi
 噯喲	ai yao
@@ -55385,6 +55393,7 @@ use_preset_vocabulary: true
 強敵環伺	qiang di huan si
 強盛	qiang sheng
 強聒不舍	qiang gua bu she
+強聒不舍	qiang guo bu she
 強行	qiang xing
 強行法	qiang xing fa
 強行軍	qiang xing jun
@@ -55795,6 +55804,7 @@ use_preset_vocabulary: true
 急管繁絃	ji guan fan xian
 急絃	ji xian
 急聒	ji gua
+急聒	ji guo
 急脈緩受	ji mai huan shou
 急脈緩受	ji mo huan shou
 急行軍	ji xing jun
@@ -55965,6 +55975,7 @@ use_preset_vocabulary: true
 惡露	e lu
 惱懆	nao cao
 惱聒	nao gua
+惱聒	nao guo
 想什麼	xiang shen me
 想度	xiang duo
 惹禍招愆	re huo zhao qian
@@ -60689,6 +60700,7 @@ use_preset_vocabulary: true
 澹蕩	dan dang
 澹話	dan hua
 激聒	ji gua
+激聒	ji guo
 濁醪	zhuo lao
 濃妝淡抹	nong zhuang dan mo
 濃妝豔抹	nong zhuang yan mo
@@ -60856,6 +60868,7 @@ use_preset_vocabulary: true
 焯爍	zhuo shuo
 焯著	zhuo zhu
 煎聒	jian gua
+煎聒	jian guo
 煖和	nuan huo
 煖房	nuan fang
 煖爐	nuan lu
@@ -62526,6 +62539,7 @@ use_preset_vocabulary: true
 碇泊區	ding bo qu
 碎屑	sui xie
 碎聒	sui gua
+碎聒	sui guo
 碑碣	bei jie
 碑趺	bei fu
 碓房	dui fang
@@ -62595,12 +62609,7 @@ use_preset_vocabulary: true
 社稷爲墟	she ji wei xu
 社長	she zhang
 祁奚薦仇	qi xi jian chou
-祇好	zhi hao
-祇是	zhi shi
-祇有	zhi you
 祇洹精舍	qi yuan jing she
-祇管	zhi guan
-祇要	zhi yao
 祓濯	fu zhuo
 祓禊	fu xi
 祓除	fu chu
@@ -63289,7 +63298,9 @@ use_preset_vocabulary: true
 給足	ji zu
 給養	ji yang
 絮絮聒聒	xu xu gua gua
+絮絮聒聒	xu xu guo guo
 絮聒	xu gua
+絮聒	xu guo
 統括	tong gua
 統括	tong kuo
 統率	tong shuai
@@ -63864,17 +63875,29 @@ use_preset_vocabulary: true
 聆樂	ling yue
 聊以塞責	liao yi se ze
 聐聐聒聒	ya ya gua gua
+聐聐聒聒	ya ya guo guo
 聐聒	ya gua
+聐聒	ya guo
 聒噪	gua zao
+聒噪	guo zao
 聒天	gua tian
+聒天	guo tian
 聒子	gua zi
+聒子	guo zi
 聒擾	gua rao
+聒擾	guo rao
 聒氣	gua qi
+聒氣	guo qi
 聒絮	gua xu
+聒絮	guo xu
 聒耳	gua er
+聒耳	guo er
 聒聒	gua gua
+聒聒	guo guo
 聒聒叫	gua gua jiao
+聒聒叫	guo guo jiao
 聒躁	gua zao
+聒躁	guo zao
 聖地	sheng di
 聖地牙哥	sheng di ya ge
 聖德懿行	sheng de yi xing
@@ -65754,6 +65777,11 @@ use_preset_vocabulary: true
 表率	biao shuai
 表識	biao zhi
 表露	biao lu
+衹好	zhi hao
+衹是	zhi shi
+衹有	zhi you
+衹管	zhi guan
+衹要	zhi yao
 衾枕之樂	qin zhen zhi le
 袁樞	yuan shu
 袍笏	pao hu
@@ -68537,6 +68565,7 @@ use_preset_vocabulary: true
 錯角	cuo jiao
 鍉針	di zhen
 鍠聒	huang gua
+鍠聒	huang guo
 鍥薄	qie bo
 鍵盤樂器	jian pan yue qi
 鍼芥相投	zhen jie xiang tou
@@ -69036,6 +69065,7 @@ use_preset_vocabulary: true
 閒氣	jian qi
 閒氣	xian qi
 閒聒七	xian gua qi
+閒聒七	xian guo qi
 閒行	jian xing
 閒覷	jian qu
 閒言	jian yan
@@ -69727,6 +69757,7 @@ use_preset_vocabulary: true
 鞭辟入裏	bian bi ru li
 鞭辟近裏	bian bi jin li
 鞭長莫及	bian chang mo ji
+鞲鞴	gou bei
 鞴馬	bei ma
 韁繩	jiang sheng
 韁轡	jiang pei
