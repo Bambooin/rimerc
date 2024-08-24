@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.8] - 2024-08-24
+
+### ⚙️ Miscellaneous Tasks
+
+- Update upstream luna dictionary
+- Update upstream luna dictionary
+- Update changelog of 0.1.8
+
 ## [0.1.7] - 2024-05-03
 
 ### 🚀 Features
