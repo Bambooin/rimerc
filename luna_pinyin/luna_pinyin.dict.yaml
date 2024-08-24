@@ -28,7 +28,7 @@
 
 ---
 name: luna_pinyin
-version: "2020.08.03"
+version: "2024.02.10"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -13720,6 +13720,7 @@ use_preset_vocabulary: true
 拢	long
 拣	jian
 拤	ka
+拤	qia
 拥	yong
 拦	lan
 拧	ning
@@ -27258,7 +27259,6 @@ use_preset_vocabulary: true
 趃	die
 趄	ju
 趄	qie
-趄	qu
 超	chao
 趆	di
 趇	se
@@ -30023,7 +30023,6 @@ use_preset_vocabulary: true
 陶	tao	99.94%
 陶	yao	0.06%
 陷	xian
-陷	xuan
 陸	liu	6.25%
 陸	lu	93.75%
 陹	sheng
@@ -30174,6 +30173,7 @@ use_preset_vocabulary: true
 雩	yu
 雪	xue
 雫	na
+雫	xia
 雬	fou
 雬	fu
 雭	se
@@ -54777,7 +54777,7 @@ use_preset_vocabulary: true
 就行	jiu xing
 就要扎腳	jiu yao zha jiao
 尷尬	gan ga
-尷尬	jian jie
+尷尬	jian jie	0%
 尷尬局面	gan ga ju mian
 尸居龍見	shi ju long xian
 尺寸之地	chi cun zhi di
@@ -67010,6 +67010,7 @@ use_preset_vocabulary: true
 起高調	qi gao diao
 趁熟	chen shou
 趄趄	ju ju
+趄趄	qie qie
 超感覺	chao gan jue
 超詣	chao yi
 超重	chao zhong
@@ -67023,8 +67024,8 @@ use_preset_vocabulary: true
 趑趄	zi ju
 趑趄不前	zi ju bu qian
 趑趄卻顧	zi ju que gu
-趔趄	lie ju
 趔趔趄趄	lie lie ju ju
+趔趔趄趄	lie lie qie qie
 趕着增福神着棍打	gan zhe zeng fu shen zhao gun da
 趙令畤	zhao ling zhi
 趙伯駒	zhao bo ju
