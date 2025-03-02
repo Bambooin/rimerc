@@ -12655,8 +12655,8 @@ use_preset_vocabulary: true
 徳	de
 徴	zheng
 徴	zhi
-徵	zheng	95%
-徵	zhi	5%
+徵	zheng	96%
+徵	zhi	4%
 徶	bie
 德	de
 徸	zhong
@@ -13393,7 +13393,7 @@ use_preset_vocabulary: true
 懼	ju
 懽	guan
 懽	huan
-懾	nie
+懾	nie	0%
 懾	she
 懾	zhe
 懿	yi
@@ -15901,8 +15901,8 @@ use_preset_vocabulary: true
 榙	ta
 榚	yao
 榛	zhen
-榜	bang	50%
-榜	peng	50%
+榜	bang	100%
+榜	peng	0%
 榝	sha
 榞	yuan
 榟	zi
@@ -19947,6 +19947,7 @@ use_preset_vocabulary: true
 癱	tan
 癲	dian
 癳	luo
+癴	luan
 癴	lvan
 癵	luan
 癵	lvan
@@ -21070,8 +21071,8 @@ use_preset_vocabulary: true
 秵	yin
 秶	zi
 秷	zhi
-秸	ji
-秸	jia
+秸	ji	0%
+秸	jia	0%
 秸	jie
 秹	ren
 秺	du
@@ -21132,8 +21133,9 @@ use_preset_vocabulary: true
 稪	fu
 稫	bi
 稬	nuo
-稭	ji
-稭	jia
+稭	ji	0%
+稭	jia	0%
+稭	jie
 種	zhong
 稯	zong
 稰	xu
@@ -24907,6 +24909,7 @@ use_preset_vocabulary: true
 虇	quan
 虈	xiao
 虉	yi
+虊	luan
 虊	lvan
 虋	men
 虌	bie
@@ -26535,9 +26538,9 @@ use_preset_vocabulary: true
 謪	shang
 謫	di
 謫	zhe
-謬	miao
+謬	miao	0%
 謬	miu
-謬	niu
+謬	niu	0%
 謭	jian
 謮	ze
 謯	zha
@@ -31347,7 +31350,7 @@ use_preset_vocabulary: true
 髀	pi
 髁	ke
 髂	ka
-髂	ke
+髂	ke	0%
 髂	qia
 髃	ou
 髄	sui
@@ -50367,7 +50370,9 @@ use_preset_vocabulary: true
 作育菁莪	zuo yu jing e
 作諢	zuo hun
 作麼生	zuo mo sheng
+佝僂	gou lou
 佝僂	kou lou
+佝僂病	gou lou bing
 佝僂病	kou lou bing
 你哦	ni o
 你快樂	ni kuai le
@@ -51168,6 +51173,7 @@ use_preset_vocabulary: true
 出糗	chu qiu
 出紅差	chu hong chai
 出芽生殖	chu ya sheng zhi
+出蟄	chu zhe
 出蟄	chu zhi
 出血	chu xie
 出血	chu xue
@@ -52551,6 +52557,7 @@ use_preset_vocabulary: true
 啑血	jie xue
 啓白	qi bai
 啓白	qi bo
+啓蟄	qi zhe
 啓蟄	qi zhi
 啓行	qi xing
 啜賺	chuo zuan
@@ -54184,7 +54191,6 @@ use_preset_vocabulary: true
 婆藪槃豆法師傳	po sou pan dou fa shi zhuan
 婆那娑	po nuo suo
 婉娩	wan wan
-婉孌	wan lvan
 婐㛂	e nuo
 婑媠	wo tuo
 婚姻失調	hun yin shi tiao
@@ -55715,6 +55721,7 @@ use_preset_vocabulary: true
 心餘力絀	xin yu li chu
 心驚肉顫	xin jing rou chan
 心驚肉顫	xin jing rou zhan
+心驚膽懾	xin jing dan she
 心驚膽懾	xin jing dan zhe
 心驚膽顫	xin jing dan zhan
 必得	bi dei
@@ -56103,7 +56110,6 @@ use_preset_vocabulary: true
 憑藉	ping jie
 憔悴	qiao cui
 憔慮	qiao lv
-憤怒痙攣	fen nu jing lvan
 憤愾	fen kai
 憤懣	fen men
 憤薄	fen bo
@@ -56159,10 +56165,14 @@ use_preset_vocabulary: true
 懸針垂露	xuan zhen chui lou
 懽喜	huan xi
 懽悰	huan cong
+懾人	she ren
 懾人	zhe ren
+懾人心魄	she ren xin po
 懾人心魄	zhe ren xin po
+懾息	she xi
 懾息	zhe xi
 懾慴	zhe zhe
+懾服	she fu
 懾服	zhe fu
 懿濞	yi pi
 懿範長昭	yi fan chang zhao
@@ -56796,8 +56806,6 @@ use_preset_vocabulary: true
 拗蠻	ao man
 拗體	ao ti
 拗體詩	ao ti shi
-拘攣	ju lvan
-拘攣補衲	ju lvan bu na
 拙著	zhuo zhu
 拚卻	pan que
 拚命	pan ming
@@ -56843,7 +56851,6 @@ use_preset_vocabulary: true
 拱手垂裳	gong shou chui chang
 拱手投降	gong shou tou xiang
 拱手而降	gong shou er xiang
-拳攣	quan lvan
 拴搐豔段	shuan chu yan duan
 拴着	shuan zhe
 拶子	zan zi
@@ -57540,10 +57547,8 @@ use_preset_vocabulary: true
 攢蹄	cuan ti
 攢蹙	cuan cu
 攢露	cuan lou
-攣弱	lvan ruo
+攣攣	luan luan
 攣攣	lvan lvan
-攣踠	lvan wan
-攣躄	lvan bi
 攤薄	tan bo
 攤還	tan huan
 攧攧仆仆	dian dian pu pu
@@ -60991,7 +60996,6 @@ use_preset_vocabulary: true
 熱火朝天	re huo chao tian
 熱爪哇	re zhao wa
 熱爪哇	re zhua wa
-熱痙攣	re jing lvan
 熱血	re xie
 熱血	re xue
 熱血沸騰	re xue fei teng
@@ -61837,8 +61841,6 @@ use_preset_vocabulary: true
 病理解剖	bing li jie pou
 病重	bing zhong
 病革	bing ji
-痙攣	jing lvan
-痙攣派	jing lvan pai
 痛惡	tong wu
 痛覺	tong jue
 痲痹不了	ma bi bu liao
@@ -64175,6 +64177,7 @@ use_preset_vocabulary: true
 膴仕	wu shi
 膴膴	wu wu
 膻中	dan zhong
+膽懾	dan she
 膽懾	dan zhe
 膽顫心寒	dan zhan xin han
 膽顫心驚	dan zhan xin jing
@@ -64204,7 +64207,9 @@ use_preset_vocabulary: true
 臨深履薄	lin shen lv bo
 臨淵履薄	lin yuan lv bo
 臨行	lin xing
+臨難不懾	lin nan bu she
 臨難不懾	lin nan bu zhe
+臨難無懾	lin nan wu she
 臨難無懾	lin nan wu zhe
 臨風搖曳	lin feng yao ye
 臨風搖曳	lin feng yao yi
@@ -64858,6 +64863,7 @@ use_preset_vocabulary: true
 蕁麻疹	xun ma zhen
 蕃侯	fan hou
 蕃坊	fan fang
+蕃孌	fan luan
 蕃孌	fan lvan
 蕃帽	fan mao
 蕃庶	fan shu
@@ -65296,12 +65302,19 @@ use_preset_vocabulary: true
 螵蛸	piao xiao
 螺螄	luo si
 螺鈿	luo dian
+蟄伏	zhe fu
 蟄伏	zhi fu
+蟄居	zhe ju
 蟄居	zhi ju
+蟄獸	zhe shou
 蟄獸	zhi shou
+蟄蟄	zhe zhe
 蟄蟄	zhi zhi
+蟄蟲	zhe chong
 蟄蟲	zhi chong
+蟄陷	zhe xian
 蟄陷	zhi xian
+蟄雷	zhe lei
 蟄雷	zhi lei
 蟊賊	mao ze
 蟋蟀	xi shuai
@@ -68598,6 +68611,7 @@ use_preset_vocabulary: true
 鎬鎬	hao hao
 鎬頭	gao tou
 鎮嚇	zhen he
+鎮懾	zhen she
 鎮懾	zhen zhe
 鎮長	zhen zhang
 鏈接地址	lian jie di zhi
@@ -69041,6 +69055,7 @@ use_preset_vocabulary: true
 閉戹	bi e
 閉明塞聰	bi ming se cong
 閉目塞聽	bi mu se ting
+閉蟄	bi zhe
 閉蟄	bi zhi
 閉門塞竇	bi men se dou
 閉門造車	bi men zao che
@@ -69386,6 +69401,7 @@ use_preset_vocabulary: true
 隘口	ai kou
 隘害	ai hai
 隘巷	ai xiang
+隘懾	ai she
 隘懾	ai zhe
 隘窘	ai jiong
 隘路	ai lu
@@ -69575,6 +69591,7 @@ use_preset_vocabulary: true
 震天價響	zhen tian ga xiang
 震天動地	zhen tian dong di
 震天駭地	zhen tian hai di
+震懾	zhen she
 震懾	zhen zhe
 震撼彈	zhen han dan
 震顫麻痺	zhen chan ma bi
@@ -70282,7 +70299,6 @@ use_preset_vocabulary: true
 髀肉復生	bi rou fu sheng
 髀骨	bi gu
 髀骶	bi di
-髂骨	ka gu
 體液	ti ye
 體癬	ti xian
 體臭	ti chou
