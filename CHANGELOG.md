@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.9] - 2025-03-02
+
+### ⚙️ Miscellaneous Tasks
+
+- Upgrade essay from upstream
+- Upgrade luna dict from upstream
+- Update 0.1.9 changelog
+
 ## [0.1.8] - 2024-08-24
 
 ### ⚙️ Miscellaneous Tasks
