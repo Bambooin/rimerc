@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.11] - 2025-10-31
+
+### ⚙️ Miscellaneous Tasks
+
+- Upgrade essay from upstream
+- Upgrade luna dict from upstream
+- Use checkout v5 in action
+- Update 0.1.11 changelog
+
 ## [0.1.10] - 2025-03-29
 
 ### ⚙️ Miscellaneous Tasks
