@@ -6660,6 +6660,7 @@ use_preset_vocabulary: true
 䴆	pu
 䴇	ling
 䴈	ao
+䴉	huan
 䴉	xuan
 䴊	yi
 䴋	huan
@@ -13840,6 +13841,8 @@ use_preset_vocabulary: true
 挻	shan
 挼	hui
 挼	nuo
+挼	rua
+挼	ruo
 挽	wan
 挾	jia
 挾	xia
@@ -14991,8 +14994,8 @@ use_preset_vocabulary: true
 暩	gui
 暩	ji
 暪	men
-暫	zan
-暫	zhan	0%
+暫	zan	100%
+暫	zhan	5%
 暬	nie
 暬	xie
 暭	gao
@@ -17153,7 +17156,7 @@ use_preset_vocabulary: true
 涊	nian
 涋	tu
 涌	chong
-涌	yong  0%
+涌	yong	0%
 涍	xiao
 涎	xian
 涎	yan
@@ -25457,7 +25460,6 @@ use_preset_vocabulary: true
 蟳	xun
 蟴	si
 蟶	cheng
-蟶	sheng
 蟷	dang
 蟸	li
 蟹	xie
@@ -27729,8 +27731,8 @@ use_preset_vocabulary: true
 軶	e
 軷	ba
 軷	bo
-軸	zhou
-軸	zhu
+軸	zhou	100%
+軸	zhu	4%
 軹	zhi
 軺	yao
 軻	ke
@@ -49682,6 +49684,7 @@ use_preset_vocabulary: true
 乾剝剝	gan bo bo
 乾吊着下巴	gan diao zhe xia ba
 乾和	gan he
+乾和	qian he
 乾咳	gan ke
 乾咽	gan ye
 乾哭	gan ku
@@ -51328,6 +51331,10 @@ use_preset_vocabulary: true
 削麪	xiao mian
 剌戾	la li
 剌謬	la miu
+前不着村	qian bu zhao cun
+前不着村	qian bu zhuo cun
+前不着村後不着店	qian bu zhao cun hou bu zhao dian
+前不着村後不着店	qian bu zhuo cun hou bu zhuo dian
 前仆後繼	qian pu hou ji
 前仆後起	qian pu hou qi
 前仇	qian chou
@@ -63714,7 +63721,6 @@ use_preset_vocabulary: true
 羯羶	jie shan
 羯鼓	jie gu
 羯鼓催花	jie gu cui hua
-羰基	tan ji
 羶行	shan xing
 羸瘵	lei zhai
 羸露	lei lu
