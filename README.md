@@ -21,11 +21,11 @@ Come up with the idea of sharing configuration to help Rime community use it eas
 Input method as a necessary daily used software, the data involved is extremely **sensitive and privacy**, but most of current commercial input methods abuse of user's data and privacy
 
 For people who pay attention to personal privacy, it is urgent to have a safe input method.
-Rime meets these requirements, but lack of dictionary and configuration is very difficult for begginer, so share rimerc with the community
+Rime meets these requirements, but lack of dictionary and configuration is very difficult for beginner, so share rimerc with the community
 
 ## Introduction
 
-Rimerc is designed to solve the headache of Rime begginer, by providing organized and constantly honed configuration
+Rimerc is designed to solve the headache of Rime beginner, by providing organized and constantly honed configuration
 
 Lots of people cannot use Rime as an usual input method for daily work due to incorrect configuration or lack of dictionary
 
