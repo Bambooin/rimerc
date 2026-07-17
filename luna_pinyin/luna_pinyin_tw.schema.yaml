@@ -3,30 +3,19 @@
 
 __include: luna_pinyin.schema:/
 
+# 默認的opencc字形轉換選項設爲臺灣字形標準
+__patch:
+  - switches/@2/reset: 3
+  - luna_pinyin_tw.custom:/patch?
+
 schema:
   schema_id: luna_pinyin_tw
   name: 朙月拼音·臺灣正體
-  version: "0.20"
+  version: "0.31"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
     朙月拼音，輸出臺灣字形。
 
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
-  - name: zh_tw
-    reset: 1
-    # 啓用opencc字形轉換，但不在選單中顯示
-
 translator:
   prism: luna_pinyin_tw
-
-simplifier:
-  opencc_config: t2tw.json
-  option_name: zh_tw

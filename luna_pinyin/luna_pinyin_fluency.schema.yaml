@@ -6,7 +6,7 @@ __include: luna_pinyin.schema:/
 schema:
   schema_id: luna_pinyin_fluency
   name: 朙月拼音·語句流
-  version: '0.29'
+  version: '0.30'
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
