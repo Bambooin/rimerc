@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.12] - 2026-07-17
+
+### 🐛 Bug Fixes
+
+- Correct begginer->beginner typo in README.md (lines 24,28)
+
+### ⚙️ Miscellaneous Tasks
+
+- Upgrade essay from upstream
+
 ## [0.1.11] - 2025-10-31
 
 ### ⚙️ Miscellaneous Tasks
